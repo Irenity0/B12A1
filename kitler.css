@@ -90,3 +90,42 @@ body {
     opacity: 60%;
 }
 
+#productive-section {
+    width: 90%;
+    margin: 50px;
+}
+
+#productive-content {
+    padding: 70px 100px;
+    background-color: rgb(78, 71, 255, 0.1);
+    border-radius: 30px;
+}
+
+#productive-content h1 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+}
+
+
+#card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 0;
+    text-align: center;
+}
+
+.card h2 {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.card p {
+    font-weight: 300;
+    opacity: 70%;
+}
