@@ -96,7 +96,8 @@ body {
 }
 
 #productive-content {
-    padding: 70px 100px;
+        width: 90%;
+    padding: 70px 80px;
     background-color: rgb(78, 71, 255, 0.1);
     border-radius: 30px;
 }
@@ -128,4 +129,53 @@ body {
 .card p {
     font-weight: 300;
     opacity: 70%;
+}
+
+#review-section {
+    width: 90%;
+}
+
+#review-section-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+}
+
+#review-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review-card {
+    background-color: #fff;
+    margin: 0;
+    padding: 30px;
+    border-radius: 15px;
+    color: #1E1E1E;
+}
+
+.review-card div {
+    margin: 0;
+}
+
+#review-user-container {
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+#review-user-container img {
+    border-radius: 100%;
+    width: 50px;
+}
+
+#reviewer-name {
+    color: #757575;
+    font-weight: bold;
+}
+
+#review-date {
+    color: #b3b3b3;
 }
